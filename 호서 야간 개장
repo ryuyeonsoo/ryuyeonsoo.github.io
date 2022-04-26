@@ -1,5 +1,14 @@
 <!DOCTYPE html>
 <html>
    <head>
-       
+       <style>
+           h3{
+               padding-left: 10px;
+               border-left: solid 8px red;
+           }
+       </style>
    </head> 
+   <body>
+       <h3>주말 야간 개장 안내</h3>
+   </body>
+</html>
