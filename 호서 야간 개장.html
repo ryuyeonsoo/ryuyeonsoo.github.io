@@ -2,13 +2,38 @@
 <html>
    <head>
        <style>
+           * {
+               margin: 0;
+               padding: 0;
+           }
            h3{
                padding-left: 10px;
                border-left: solid 8px red;
+               margin: 10px;
            }
+           li {list-style: none;
+        border-bottom: dotted 1px black;
+        padding: 10px;
+        margin: 20px;}
+
+        ul {
+            margin: 10px;
+            border: solid 2px black;
+            padding: 5px;
+            width: 600px;
+        }
+        span {font-weight: bold;}
        </style>
    </head> 
    <body>
-       <h3>주말 야간 개장 안내</h3>
-   </body>
+       <form action="">
+<ul>
+    <li>- <span>기간</span> : 4.28~8.20 18:00~22:00 (입장마감 21시)</li>
+    <li>- <span>대상</span> : 동물원, 식물원</li>
+    <li>- <span>프로그램</span> : 야간동물원 관람, 동믈생태 설명회, 식물전시</li>
+    <li>- <span>방문자 신분</span> : <input type="radio" name="info">호서대 재학생
+          <input type="radio" name="info"> 일반인 <input type="submit" value="방문신청"></li>
+</ul>       
+</form>
+</body>
 </html>
