@@ -9,22 +9,24 @@ text-align: center;}
 table, tr, th, td{
 	border: solid 1px rgb(216, 192, 240);
 	border-collapse: collapse;
-
+    padding: 8px;
 	text-align: center;
     color: rgb(187, 130, 245);
 }
 h2, h3{color: rgb(187, 130, 245);}
 h2 {
     text-align: center;}
-
-th, td {
+table{width:1000px;}
+table, th{width:1000px;}
+th, td {padding: 10px 0;
         text-align: left;
         vertical-align: top;
         height: 100px;
-		width: 900px;
+		width: 1000px;
 	}
 #color1 {color: rgb(244, 104, 104);}
 #color2 {color: rgb(124, 126, 245);}
+#color3 {background-color: rgb(255, 255, 255); font-weight: bold;}
 span {color: rgb(85, 159, 72)}
 .black {color: black;}
 </style>
@@ -34,8 +36,9 @@ span {color: rgb(85, 159, 72)}
 <h3>2022년 5월</h3>
 
 <table align="center">
+		
 	<h4>▹ 알바 : 월 / 화 / 금 - 08 : 50 , 수 - 08 : 00 , 목 - 16 :30</h4>
-	<tr>
+	<tr id="color3">
 		<th id="color1">일</th>
 		<th>월</th>
 		<th>화</th>
@@ -44,7 +47,7 @@ span {color: rgb(85, 159, 72)}
 		<th>금</th>
 		<th id="color2">토</th>
 	</tr>
-	<tr>
+	<tr id="color3">
 		<td id="color1">1</td>
 		<td>2</td>
 		<td>3<br><span class="black"> 웹프로그래밍</span></td>
@@ -53,7 +56,7 @@ span {color: rgb(85, 159, 72)}
         <td>6</td> 
 		<td id="color2">7<br><span class="black">웹프로그래밍</span></td>
 	</tr>
-	<tr>
+	<tr id="color3">
 		<td id="color1">8<br>어버이날</td>
 		<td>9<br><span>이유진 생일</span></td>
 		<td>10<br><span class="black">웹프로그래밍</span></td>
@@ -62,7 +65,7 @@ span {color: rgb(85, 159, 72)}
         <td>13</td>
 		<td id="color2">14<br><span class="black">웹프로그래밍</span></td>
 	</tr>
-	<tr>
+	<tr id="color3">
 		<td id="color1">15<br><span>최현우<br> 'THE BRAIN' - 18:00</span></td>
 		<td>16</td>
 		<td>17<br><span class="black">웹프로그래밍</span></td>
@@ -72,7 +75,7 @@ span {color: rgb(85, 159, 72)}
         <td id="color2">21<br><span class="black">웹프로그래밍</span></td>
 
 	</tr>
-	<tr>
+	<tr id="color3">
 		<td id="color1">22<br><span>레베카 - 19:00</span></td>
 		<td>23</td>
 		<td>24<br><span class="black">웹프로그래밍</span></td>
@@ -81,7 +84,7 @@ span {color: rgb(85, 159, 72)}
         <td>27</td> 
         <td id="color2">28<br><span class="black">웹프로그래밍</span></td>
 	</tr>
-	<tr>
+	<tr id="color3">
 		<td id="color1">29</td>
 		<td>30</td>
 		<td>31<br><span class="black">웹프로그래밍</span></td>
@@ -91,7 +94,7 @@ span {color: rgb(85, 159, 72)}
 		<td></td>
     </tr>
 </table>
-<img src="호서대학교 로고.png" width="70">
+<a href="http://www.hoseo.ac.kr/Home/Main.mbz"><img src="호서대학교 로고.png" width="70"></a>
 
 </body>
 </html>
