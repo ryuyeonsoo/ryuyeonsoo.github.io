@@ -24,10 +24,11 @@ nav{ background-color: white; border: dotted 4px #c8b8ff;
 .nav {margin-top: 10px; float: left; list-style-type: none; margin-left: 25px;}
 
 section{
-	width: 990px;
+	width: 750px;
 	height: 705px;
 	margin-top: 15px;
-	float: right ;
+	float: left;
+	margin-left: 20px;
 }
 
 table, tr, th, td{ border-collapse: collapse;
@@ -37,7 +38,7 @@ text-align: center;
 color: rgb(95, 95, 238);
 font-size: 11px;
 }
-table{width: 990px; height: 705px; background-color:  white; }
+table{width: 750px; height: 705px; background-color:  white; }
 th, td{  width: 130px; padding: 16px 0;}
 p {font-size: large; line-height: 200%; font-weight: bold;}
 .color1 {background-color: none; background-color: rgb(208, 224, 249)}
@@ -56,12 +57,20 @@ p {font-size: large; line-height: 200%; font-weight: bold;}
 .color7:hover{background-color: none; background-color: rgb(248, 131, 254)}
 
 aside{ 
-	width: 250px;
+	width: 220px;
 	height: 705px; float: left;
-	margin-top: 15px;  margin-top: 18px; 
+	margin-top: 15px; 
 }
-#as1{background-color:  #ffffff; border: dotted 6px #7b57f1; width: 250px; height: 335px; color: white; float: left; }
-#as2{background-color:  white;  border: dotted 6px #7b57f1; width: 250px; height: 335px; margin-top: 10px; float: left;}
+#as1{background-color:  #ffffff; border: dotted 6px #7b57f1; width: 220px; height: 335px; color: white;}
+#as2{background-color:  white;  border: dotted 6px #7b57f1; width: 220px; height: 335px; margin-top: 10px;}
+
+#aside1{ 
+	width: 260px;
+	height: 705px; float: right;
+	margin-top: 15px;
+}
+#as3{background-color:  #ffffff; border: dotted 6px #7b57f1; width: 250px; height: 335px; color: white; }
+#as4{background-color:  white;  border: dotted 6px #7b57f1; width: 250px; height: 335px; margin-top: 10px;}
 
 
 footer{ 
@@ -111,6 +120,16 @@ footer{
 </ul>
 </nav>
 
+<aside>
+	<div id="as1">     	
+		<ul>	
+			<img src="홈피 떡원.jpg" width="210" height="335">
+		</div>
+		<div id="as2">
+			<img src="홈피 고양이.jpg" width="210" height="335">
+	</ul>
+</div>
+</aside>
 <section>
 	<table>
 		<tr>
@@ -194,17 +213,17 @@ footer{
     </a>
 </section>
 
-<aside>
-	<div id="as1">     	
-	<ul>	
-		<li><img src="홈피 고양이1.jpg" width="240" height="270"></li> 
-		<li><a href="프로필.html"><img src="홈피.png" width="200" height="65"></a></li>
+<div id="aside1">
+	<div id="as3">     	
+		<ul>	
+			<li><img src="홈피 고양이1.jpg" width="240" height="270"></li> 
+			<li><a href="프로필.html"><img src="홈피.png" width="200" height="60"></a></li>
+		</div>
+		<div id="as4">
+			<img src="고양이 그림.jpg" width="250" height="335">
+	</ul>
 	</div>
-	<div id="as2">
-		<img src="고양이 그림.jpg" width="250" height="335">
-</ul>
 </div>
-</aside>
 
 <div class="clear"></div>
 
